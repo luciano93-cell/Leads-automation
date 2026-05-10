@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Node (for the slide builder)
+node_modules/
+package-lock.json
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Data — NEVER commit lead data
+*.sqlite
+*.sqlite3
+*.db
+data/
+backups/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Office lock files
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
